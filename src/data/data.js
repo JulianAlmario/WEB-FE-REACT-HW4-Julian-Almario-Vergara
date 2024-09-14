@@ -22,5 +22,9 @@ export const Diag=[
   ]
   
   export const Obj=[
-    {id:101,goal:"Incrementar las ventas mensuales en un 20% dentro de los próximos 6 meses",target:1200,progress:1000,compliance:25}
+    {id:101,goal:"Incrementar las ventas mensuales en un 20% dentro de los próximos 6 meses",target:1200,progress:1050,compliance:12.5},
+    {id:102,goal:"Aumentar el número de reseñas de productos en un 25%",target:2000,progress:500,compliance:25},
+    {id:103,goal:"Ampliar la cobertura logística con nuevos centros de distribución",target:5,progress:3,compliance:60},
+    {id:104,goal:"Aumentar el número de productos disponibles en un 30%",target:5000,progress:4200,compliance:50},
+    {id:105,goal:"Reducir los tiempos de entrega promedio en un 20%",target:4,progress:3.8,compliance:100},
   ]

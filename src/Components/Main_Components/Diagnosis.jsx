@@ -1,5 +1,5 @@
 
-function Diagnosis({number,diag}){
+function Diagnosis({diag}){
     let type=diag.type;
     let type2;
     let items=diag.items;
@@ -21,7 +21,7 @@ function Diagnosis({number,diag}){
           break;
         }
 
-    switch(number) {
+    switch(diag.id) {
     case 1: 
       color = "bg-yellow-300 border-yellow-700";
       color2 = "text-yellow-700";
