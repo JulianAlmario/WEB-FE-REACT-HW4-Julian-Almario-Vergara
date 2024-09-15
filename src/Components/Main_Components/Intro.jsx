@@ -1,8 +1,8 @@
 function Intro() {
   return (
     <section>
-      <h1 className="text-6xl text-center my-5 font-semibold text-blue-800">
-        Planeacion estrategica
+      <h1 className="text-5xl text-center mb-5 font-semibold text-blue-800">
+       Introduccion
       </h1>
       <p className="mx-5 text-1xl">
         Es una tienda en línea dedicada a ofrecer una amplia variedad de

@@ -51,7 +51,7 @@ function Diagnosis({diag}){
    {items.map((it)=>(
     <li key={it.id}>
     <h3 className={h3title2}>{type2} {it.id}</h3>
-    <p className="my-2">{it.descripcion}</p>
+    <p className={`${color2} my-2 font-normal`}>{it.descripcion}</p>
     </li>
    ))}
    </ul>
