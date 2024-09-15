@@ -40,7 +40,7 @@ function Diagnosis({diag}){
       break;
     }
 
-    let property=`${color} border-2 w-5/12 p-2 my-5 mx-auto`;
+    let property=`${color} border-2 w-5/12 p-2 my-5 mx-auto max-[768px]:w-9/12`;
     let h3title=`text-3xl text-center ${color2} mb-2 font-semibold`;
     let h3title2=`text-2xl ${color2}`
     

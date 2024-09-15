@@ -9,7 +9,7 @@ import { useState } from 'react'
 function App() {
 
   return (
-    <div>
+    <div className="max-[768px]:w-full box-border">
     <Header/>
     <Main diag={Diag} obj={Obj}/>
     </div>

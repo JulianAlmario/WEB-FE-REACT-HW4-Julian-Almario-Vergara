@@ -1,6 +1,4 @@
 function Objectives({object}){
-    let state;
-    let color;
     for (let i=0;i<object.length;i++){
 
         if(object[i].compliance>=0 && object[i].compliance<=35){
@@ -21,26 +19,26 @@ function Objectives({object}){
        
        <section>
         <h2 className="m-5 text-4xl font-semibold text-blue-600">3. Objetivos Estrategicos</h2>
-        <table className="mx-auto my-3">
+        <table className="mx-auto my-3 max-[550px]:text-xs max-[400px]:text-[8px]">
             <thead>
             <tr>
-                <th className="border-2 border-black p-2 bg-blue-700 text-white">Codigo</th>
-                <th className="border-2 border-black p-2 bg-blue-700 text-white">Objetivo</th>
-                <th className="border-2 border-black p-2 bg-blue-700 text-white">Meta</th>
-                <th className="border-2 border-black p-2 bg-blue-700 text-white">Avance</th>
-                <th className="border-2 border-black p-2 bg-blue-700 text-white">Cumplimiento</th>
-                <th className="border-2 border-black p-2 bg-blue-700 text-white">Critico</th>         
+                <th className="border-2 border-black p-2 bg-blue-700 text-white max-[550px]:p-1">Codigo</th>
+                <th className="border-2 border-black p-2 bg-blue-700 text-white max-[550px]:p-1">Objetivo</th>
+                <th className="border-2 border-black p-2 bg-blue-700 text-white max-[550px]:p-1">Meta</th>
+                <th className="border-2 border-black p-2 bg-blue-700 text-white max-[550px]:p-1">Avance</th>
+                <th className="border-2 border-black p-2 bg-blue-700 text-white max-[550px]:p-1">Cumplimiento</th>
+                <th className="border-2 border-black p-2 bg-blue-700 text-white max-[550px]:p-1">Critico</th>         
             </tr>
             </thead>
            <tbody>
            {object.map((obj)=>(
                 
                 <tr key={obj.id}>
-                 <td className="border-2 border-black p-2 bg-blue-200 text-center">{obj.id}</td>
-                 <td className="border-2 border-black p-2 bg-blue-200  text-center">{obj.goal}</td>
-                 <td className="border-2 border-black p-2 bg-blue-200  text-center">{obj.target}</td>
-                 <td className="border-2 border-black p-2 bg-blue-200  text-center">{obj.progress}</td>
-                 <td className="border-2 border-black p-2 bg-blue-200  text-center">{`${obj.compliance}%`}</td>
+                 <td className="border-2 border-black p-2 bg-blue-200 text-center max-[550px]:p-1">{obj.id}</td>
+                 <td className="border-2 border-black p-2 bg-blue-200  text-center max-[550px]:p-1">{obj.goal}</td>
+                 <td className="border-2 border-black p-2 bg-blue-200  text-center max-[550px]:p-1">{obj.target}</td>
+                 <td className="border-2 border-black p-2 bg-blue-200  text-center max-[550px]:p-1">{obj.progress}</td>
+                 <td className="border-2 border-black p-2 bg-blue-200  text-center max-[550px]:p-1">{`${obj.compliance}%`}</td>
                  <td className={`${obj.color} border-2 border-black p-2 bg-blue-200  text-center font-medium`}>{obj.state}</td>
                 </tr>
             ))}

@@ -1,10 +1,10 @@
 function Intro() {
   return (
-    <section>
+    <section className="mx-5 max-[550px]:mx-1">
       <h1 className="text-5xl text-center mb-5 font-semibold text-blue-800">
        Introduccion
       </h1>
-      <p className="mx-5 text-1xl">
+      <p>
         Es una tienda en línea dedicada a ofrecer una amplia variedad de
         productos de calidad a precios competitivos, brindando una experiencia
         de compra rápida, segura y conveniente. Nuestro objetivo es facilitar el
