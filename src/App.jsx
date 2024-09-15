@@ -1,5 +1,6 @@
 import Header from "./Components/Header";
 import Main from "./Components/Main";
+import Footer from "./Components/Footer";
 import './styles.css'
 import { Diag, Obj } from "./data/data";
 import { useState } from 'react'
@@ -9,10 +10,11 @@ import { useState } from 'react'
 function App() {
 
   return (
-    <div className="max-[768px]:w-full box-border">
+    <>
     <Header/>
     <Main diag={Diag} obj={Obj}/>
-    </div>
+    <Footer/>
+    </>
   );
 }
 
