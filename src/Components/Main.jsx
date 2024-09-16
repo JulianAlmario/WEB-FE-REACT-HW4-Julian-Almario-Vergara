@@ -5,7 +5,7 @@ import Objectives from "./Main_Components/Objectives";
 
 function Main({diag,obj}){
     return (
-        <main className="bg-[#efefef] py-2 px-2 ">
+        <main className="bg-[#efefef] p-5">
         <Intro/>
         <h2 className="m-5 text-4xl font-semibold text-blue-600 2xl:text-7xl">1. Diagnostico Actual</h2>
         <section className="flex flex-wrap gap-2 items-end max-[768px]:flex-col max-[768px]:flex-nowrap">
