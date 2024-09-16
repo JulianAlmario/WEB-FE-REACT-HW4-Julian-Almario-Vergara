@@ -18,8 +18,8 @@ function Objectives({object}){
     return(
        
        <section>
-        <h2 className="m-5 text-4xl font-semibold text-blue-600">3. Objetivos Estrategicos</h2>
-        <table className="mx-auto my-3 max-[550px]:text-xs max-[400px]:text-[8px]">
+        <h2 className="m-5 text-4xl font-semibold text-blue-600 2xl:text-7xl">3. Objetivos Estrategicos</h2>
+        <table className="mx-auto my-3 max-[550px]:text-xs max-[400px]:text-[8px] 2xl:text-4xl">
             <thead>
             <tr>
                 <th className="border-2 border-black p-2 bg-blue-700 text-white max-[550px]:p-1">Codigo</th>

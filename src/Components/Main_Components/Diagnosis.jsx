@@ -40,9 +40,9 @@ function Diagnosis({diag}){
       break;
     }
 
-    let property=`${color} border-2 w-5/12 p-2 my-5 mx-auto max-[768px]:w-9/12`;
-    let h3title=`text-3xl text-center ${color2} mb-2 font-semibold`;
-    let h3title2=`text-2xl ${color2}`
+    let property=`${color} border-2 w-5/12 p-2 my-5 mx-auto max-[768px]:w-9/12 2xl:text-4xl`;
+    let h3title=`text-3xl text-center ${color2} mb-2 font-semibold 2xl:text-5xl`;
+    let h3title2=`text-2xl ${color2} 2xl:text-5xl`
     
    return(
     <section className={property}>
@@ -51,7 +51,7 @@ function Diagnosis({diag}){
    {items.map((it)=>(
     <li key={it.id}>
     <h3 className={h3title2}>{type2} {it.id}</h3>
-    <p className={`${color2} my-2 font-normal`}>{it.descripcion}</p>
+    <p className={`${color2} my-2 font-normal 2xl:my-3`}>{it.descripcion}</p>
     </li>
    ))}
    </ul>
